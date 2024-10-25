@@ -10,10 +10,10 @@ const FoodDisplay = ({ category }) => {
  
 
     return (
-        <div>
+        <div className='relative'>
             
             <h1 className='text-3xl font-semibold mt-10'>Top dishes near you</h1>
-            <div className='h-screen w-full flex flex-wrap justify-between   rounded-lg my-10'>
+            <div className='  w-full flex flex-wrap justify-between   rounded-lg my-10'>
                 {food_list.filter((item) => {
        
                         if(category === "All"){

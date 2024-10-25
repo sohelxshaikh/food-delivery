@@ -15,7 +15,7 @@ const FoodItem = ({ id, name, description, price, image }) => {
     
     return (
 
-        <div className='w-[18vw]   shadow-xl rounded-2xl my-5 h-[55vh] '>
+        <div className='w-[18vw]  shadow-xl rounded-2xl my-5 h-[55vh] '>
             <div className='relative'>
                 <img className='rounded-t-2xl  ' src={image} alt="" />
 

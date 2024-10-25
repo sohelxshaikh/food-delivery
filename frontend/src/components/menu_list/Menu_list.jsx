@@ -9,7 +9,7 @@ const Menu_list = ({category,setCategory}) => {
     <div className='explore-menu' id='explore-menu'>
         <h1 className='text-3xl font-semibold mt-10'>Explore our menu</h1>
         <p className='text-xl my-10 max-w-50'>Discover a variety of delicious dishes designed to satisfy every craving. From appetizers to desserts, our menu has something for everyone. Try your favorites or find something new to enjoy.</p>
-        <div className='flex items-center text-center gap-10 overflow-x-scroll scrollbar-hide cursor-grab '>
+        <div className='flex items-center   text-center gap-10 overflow-x-scroll scrollbar-hide cursor-grab '>
             {menu_list.map((item,index)=>{
                 return (
                     <div onClick={()=> setCategory(prev=>prev===item.menu_name?"All":item.menu_name)} className='flex flex-col gap-4 items-center min-w-48'>
